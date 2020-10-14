@@ -1,0 +1,18 @@
+{
+  "targets": {
+    "sample-a1-a6f21": {
+      "hosting": {
+        "aiming-license": [
+          "sample-a1-a6f21"
+        ]
+      }
+    },
+    "aiming-license": {
+      "hosting": {
+        "aiming-license": [
+          "aiming-license"
+        ]
+      }
+    }
+  }
+}
