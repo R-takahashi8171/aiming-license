@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "aiming-license"
+    }
+  },
+  "defaultProject": "aiming-license",
+  "cli": {
+    "analytics": "ecd7300b-7bc1-4e6d-b7e0-834ca70f841f"
+  }
 }
