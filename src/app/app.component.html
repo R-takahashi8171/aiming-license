@@ -1,4 +1,41 @@
-<header>header</header>
+<header>
+  <div class="example-container">
+      <mat-toolbar color="primary">
+        <button mat-icon-button (click)="sidenav.toggle()" aria-label="Example icon-button with menu icon">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <span>My App</span>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+          <mat-icon>favorite</mat-icon>
+        </button>
+        <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+          <mat-icon>share</mat-icon>
+        </button>
+      </mat-toolbar>
+
+    <mat-sidenav-container class="example-sidenav-container">
+      <mat-sidenav #sidenav>
+        <mat-nav-list>
+          <a mat-list-item routerLink=".">メニュー1</a>
+          <a mat-list-item routerLink=".">メニュー2</a>
+          <a mat-list-item routerLink=".">よくある質問</a>
+          <a mat-list-item routerLink=".">設定</a>
+        </mat-nav-list>
+      </mat-sidenav>
+    </mat-sidenav-container>
+  </div>
+
+  <div class="bottons">
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+   </button>
+  </div>
+
+</header>
 
 <router-outlet></router-outlet>
 
